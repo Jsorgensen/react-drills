@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 import View from './View'
+import View2 from './View2'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <View />
+        <View2 />
       </div>
     );
   }
