@@ -7,6 +7,6 @@ import Details from './Details'
 export default(
     <Switch>
         <Route exact path='/' component={Products}/>
-        <Route path='details/:id' component={Details}/>
+        <Route path='/details/:id' component={Details}/>
     </Switch>
 )
